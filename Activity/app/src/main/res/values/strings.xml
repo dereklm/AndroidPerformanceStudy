@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IS: Android Performance Study (Activity)</string>
+    <string name="description">Load refers to the number of views on the screen\nWeight refers to the weight of each separate view.</string>
 </resources>
