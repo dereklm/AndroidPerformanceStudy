@@ -34,6 +34,10 @@ captures/
 
 # Intellij
 *.iml
+Activity/.idea/*
+Fragment/.idea/*
+View/.idea/*
+.idea/*
 .idea/workspace.xml
 
 # Keystore files

@@ -1,4 +1,54 @@
 <resources>
     <string name="app_name">IS: Android Performance Study (Activity)</string>
     <string name="description">Load refers to the number of views on the screen\nWeight refers to the weight of each separate view.</string>
+    <string name="tv1">TextView 1</string>
+    <string name="tv2">TextView 2</string>
+    <string name="tv3">TextView 3</string>
+    <string name="tv4">TextView 4</string>
+    <string name="tv5">TextView 5</string>
+    <string name="tv6">TextView 6</string>
+    <string name="tv7">TextView 7</string>
+    <string name="tv8">TextView 8</string>
+    <string name="tv9">TextView 9</string>
+    <string name="tv10">TextView 10</string>
+    <string name="tv11">TextView 11</string>
+    <string name="tv12">TextView 12</string>
+    <string name="tv13">TextView 13</string>
+    <string name="tv14">TextView 14</string>
+    <string name="tv15">TextView 15</string>
+    <string name="tv16">TextView 16</string>
+    <string name="tv17">TextView 17</string>
+    <string name="tv18">TextView 18</string>
+    <string name="tv19">TextView 19</string>
+    <string name="tv20">TextView 20</string>
+    <string name="tv21">TextView 21</string>
+    <string name="tv22">TextView 22</string>
+    <string name="tv23">TextView 23</string>
+    <string name="tv24">TextView 24</string>
+    <string name="tv25">TextView 25</string>
+    <string name="tv26">TextView 26</string>
+    <string name="tv27">TextView 27</string>
+    <string name="tv28">TextView 28</string>
+    <string name="tv29">TextView 29</string>
+    <string name="tv30">TextView 30</string>
+    <string name="tv31">TextView 31</string>
+    <string name="tv32">TextView 32</string>
+    <string name="tv33">TextView 33</string>
+    <string name="tv34">TextView 34</string>
+    <string name="tv35">TextView 35</string>
+    <string-array name="listviewitems">
+        <item>ListView Item 1</item>
+        <item>ListView Item 2</item>
+        <item>ListView Item 3</item>
+        <item>ListView Item 4</item>
+        <item>ListView Item 5</item>
+    </string-array>
+    <string-array name="explistviewitems">
+        <item>Expandable ListView Item 1</item>
+        <item>Expandable ListView Item 2</item>
+        <item>Expandable ListView Item 3</item>
+        <item>Expandable ListView Item 4</item>
+        <item>Expandable ListView Item 5</item>
+    </string-array>
+
 </resources>
