@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LowLowActivity" />
+        <activity android:name=".MidLowActivity" />
+        <activity android:name=".HiLowActivity" />
+        <activity android:name=".LowMidActivity" />
+        <activity android:name=".MidMidActivity" />
+        <activity android:name=".HiMidActivity"></activity>
     </application>
 
 </manifest>
