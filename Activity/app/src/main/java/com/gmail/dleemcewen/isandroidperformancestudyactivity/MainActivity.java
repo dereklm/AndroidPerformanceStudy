@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), LowLowActivity.class);
+                Intent intent = new Intent(MainActivity.this, LowLowActivity.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), MidLowActivity.class);
+                Intent intent = new Intent(MainActivity.this, MidLowActivity.class);
                 startActivity(intent);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), HiLowActivity.class);
+                Intent intent = new Intent(MainActivity.this, HiLowActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,27 +50,37 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), LowMidActivity.class);
+                Intent intent = new Intent(MainActivity.this, LowMidActivity.class);
                 startActivity(intent);
             }
         });
 
-        midMid = (Button) findViewById(R.id.low_mid);
+        midMid = (Button) findViewById(R.id.mid_mid);
         midMid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), MidMidActivity.class);
+                Intent intent = new Intent(MainActivity.this, MidMidActivity.class);
                 startActivity(intent);
             }
         });
 
-        hiMid = (Button) findViewById(R.id.low_mid);
+        hiMid = (Button) findViewById(R.id.high_mid);
         hiMid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //maybe put timer here.
-                Intent intent = new Intent(getApplicationContext(), HiMidActivity.class);
+                Intent intent = new Intent(MainActivity.this, HiMidActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        lowHi = (Button) findViewById(R.id.low_high);
+        lowHi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //maybe put timer here.
+                Intent intent = new Intent(MainActivity.this, LowHiActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,7 +1,7 @@
 package com.gmail.dleemcewen.isandroidperformancestudyactivity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class MidMidActivity extends AppCompatActivity {
 
