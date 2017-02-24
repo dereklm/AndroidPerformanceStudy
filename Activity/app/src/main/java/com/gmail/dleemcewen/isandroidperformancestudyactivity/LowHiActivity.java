@@ -5,16 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ExpandableListView;
 
 import com.gmail.dleemcewen.isandroidperformancestudyactivity.ExpandableList.ExpandableListAdapter;
-import com.gmail.dleemcewen.isandroidperformancestudyactivity.ExpandableList.ExpandableListChild;
-import com.gmail.dleemcewen.isandroidperformancestudyactivity.ExpandableList.ExpandableListGroup;
+import com.gmail.dleemcewen.isandroidperformancestudyactivity.Utils.ExpandableListGen;
 
 import java.util.ArrayList;
 
 public class LowHiActivity extends AppCompatActivity {
 
     private ExpandableListAdapter ela;
-    private ArrayList<ExpandableListGroup> groups;
-    private ArrayList<ExpandableListView> lists;
+    private ArrayList<ExpandableListView> lists = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,20 +25,7 @@ public class LowHiActivity extends AppCompatActivity {
         lists.add((ExpandableListView) findViewById(R.id.ex4));
         lists.add((ExpandableListView) findViewById(R.id.ex5));
 
-        for (int i = 0; i < 5; i++) {
-            groups.add(new ExpandableListGroup());
-
-            ArrayList<ExpandableListChild> children = new ArrayList<>();
-            for (int j = 0; j < 5; j++) {
-                ExpandableListChild ec = new ExpandableListChild();
-                ec.setName("child item " + j);
-                ec.setTag(j + "");
-                children.add(ec);
-            }
-            groups.get(i).setItems(children);
-        }
-
-        ela = new ExpandableListAdapter(LowHiActivity.this, groups);
+        ela = new ExpandableListAdapter(LowHiActivity.this, ExpandableListGen.gen());
         for (ExpandableListView ev : lists) {
             ev.setAdapter(ela);
         }
