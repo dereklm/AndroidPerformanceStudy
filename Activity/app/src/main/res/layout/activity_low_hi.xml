@@ -14,7 +14,6 @@
     <ExpandableListView
         android:id="@+id/ex1"
         android:layout_width="match_parent"
-        android:entries="@array/listviewitems"
         android:layout_height="0dp"
         android:layout_weight="1">
     </ExpandableListView>

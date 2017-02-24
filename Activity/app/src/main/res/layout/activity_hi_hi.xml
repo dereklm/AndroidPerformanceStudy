@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_mid_hi"
+    android:id="@+id/activity_hi_hi"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,7 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.gmail.dleemcewen.isandroidperformancestudyactivity.MidHiActivity">
+    tools:context="com.gmail.dleemcewen.isandroidperformancestudyactivity.HiHiActivity">
+
 
     <ExpandableListView
         android:id="@+id/ex1"
@@ -121,35 +122,141 @@
         android:id="@+id/ex16"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight=".1">
     </ExpandableListView>
 
     <ExpandableListView
         android:id="@+id/ex17"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight=".1">
     </ExpandableListView>
 
     <ExpandableListView
         android:id="@+id/ex18"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight=".1">
     </ExpandableListView>
 
     <ExpandableListView
         android:id="@+id/ex19"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight=".1">
     </ExpandableListView>
 
     <ExpandableListView
         android:id="@+id/ex20"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex21"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex22"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex23"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex24"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex26"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex27"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex28"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex29"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex30"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+
+    <ExpandableListView
+        android:id="@+id/ex31"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex32"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex33"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex34"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
+    </ExpandableListView>
+
+    <ExpandableListView
+        android:id="@+id/ex35"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1">
     </ExpandableListView>
 
 </LinearLayout>

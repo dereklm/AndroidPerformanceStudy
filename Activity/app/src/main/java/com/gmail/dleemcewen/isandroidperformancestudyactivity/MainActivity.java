@@ -84,5 +84,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        midHi = (Button) findViewById(R.id.mid_high);
+        midHi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //maybe put timer here.
+                Intent intent = new Intent(MainActivity.this, MidHiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        hiHi = (Button) findViewById(R.id.high_high);
+        hiHi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //maybe put timer here.
+                Intent intent = new Intent(MainActivity.this, HiHiActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

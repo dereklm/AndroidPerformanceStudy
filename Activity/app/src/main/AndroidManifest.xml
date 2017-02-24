@@ -22,7 +22,8 @@
         <activity android:name=".MidMidActivity" />
         <activity android:name=".HiMidActivity" />
         <activity android:name=".LowHiActivity" />
-        <activity android:name=".MidHiActivity"></activity>
+        <activity android:name=".MidHiActivity" />
+        <activity android:name=".HiHiActivity"></activity>
     </application>
 
 </manifest>
